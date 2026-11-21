@@ -1,0 +1,35 @@
+# Android build files
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+.gradle/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local config
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Signing keys - never commit
+*.jks
+*.keystore
+keystore.properties
+
+# Secrets
+google-services.json
+.env
+
+# OS
+.DS_Store
+Thumbs.db
